@@ -1,0 +1,9 @@
+from fractions import Fraction
+
+x = []
+y = []
+for i in range(0, 4):
+    x[i] = int(input())
+    y[i] = int(input())
+x1 = Fraction(y[0] - y[1], x[0] - x[1])
+x2 = Fraction(y[3] - y[2], x[3] - x[2])

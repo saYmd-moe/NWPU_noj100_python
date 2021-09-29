@@ -1,0 +1,10 @@
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+x3 = int(input())
+y3 = int(input())
+a1 = (x1 + x2) / 2
+b1 = (y1 + y2) / 2
+a2 = (x1 + x3) / 2
+b2 = (y1 + y3) / 2
