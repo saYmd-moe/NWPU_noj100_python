@@ -12,4 +12,4 @@ while True:
     if not n:
         print(c)
         break
-    n = str(n)
+    

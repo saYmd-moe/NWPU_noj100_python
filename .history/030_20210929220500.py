@@ -7,9 +7,8 @@ while True:
         a[i] = int(a[i])
     for i in range(len(n)):
         b = a[i] + b
-    n = int(n) - b
+    n = b
     c = c + 1
     if not n:
         print(c)
         break
-    n = str(n)
