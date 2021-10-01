@@ -14,6 +14,5 @@ while True:
     elif bi < pi or bj < pj:
         result = C(bi, bi + bj)
     else:
-        result = C(bi,
-                   bi + bj) - (C(pi, pi + pj) * C(bi - pi, bi + bj - pi - pj))
+        result = C(bi, bi + bj) - (C(pi, pi + pj) * C(bi - pi, bi + bj - pi - pj))
     print(result)

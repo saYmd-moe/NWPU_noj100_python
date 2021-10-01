@@ -9,11 +9,8 @@ def C(n, m):
 
 while True:
     bi, bj, pi, pj = map(int, input().split(','))
-    if bi < 0 or pi < 0 or bj < 0 or pj < 0:
+    if bi < 0 or pi < 0 or bj < 0 or pj < 0 or bi < pi or bj < pj:
         break
-    elif bi < pi or bj < pj:
-        result = C(bi, bi + bj)
     else:
-        result = C(bi,
-                   bi + bj) - (C(pi, pi + pj) * C(bi - pi, bi + bj - pi - pj))
-    print(result)
+        result = C(bi, bi + bj) - (C(pi, pi + pj) * C(bi - pi, bi + bj - pi - pj))
+        print(result)

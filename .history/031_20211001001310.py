@@ -4,7 +4,7 @@ dic4 = [4, 6, 4, 6]
 dic7 = [7, 9, 3, 1]
 dic8 = [8, 4, 2, 6]
 dic9 = [9, 1, 9, 1]
-a, b = map(int, input().split(" "))
+a, b = map(int, input().split())
 while (0 < a and 0 < b):
     if (a == 1 or a % 10 == 5 or a % 10 == 6):
         print(a % 10)
