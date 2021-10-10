@@ -1,0 +1,2 @@
+def stick(num):
+    sticknum
