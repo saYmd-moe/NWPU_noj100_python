@@ -1,0 +1,2 @@
+def CollatzCalculate(n):
+    if
