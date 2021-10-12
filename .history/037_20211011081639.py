@@ -1,0 +1,7 @@
+q = int(input())
+qh = q // 100
+qt = q % 100 // 10
+qn = q % 100 % 10
+for d in range(10, 100):
+    for f in range(1000, 10000):
+        
