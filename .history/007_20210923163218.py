@@ -1,6 +1,0 @@
-a = int(input())
-b = '+' + str(abs(a))
-print('%-10s' % a)
-print('%10s' % a)
-print('%-10s' % b)
-print('%10s' % b)

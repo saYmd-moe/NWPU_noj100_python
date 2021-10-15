@@ -1,2 +1,0 @@
-q = int(input())
-for

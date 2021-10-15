@@ -1,1 +1,0 @@
-s = [i for i in range]
