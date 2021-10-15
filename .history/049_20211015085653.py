@@ -1,0 +1,1 @@
+n, v = int(input())
