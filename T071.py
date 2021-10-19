@@ -10,4 +10,3 @@ for i in s1:
 
 result.sort()
 print(' '.join(result))
-
