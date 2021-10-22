@@ -1,5 +1,6 @@
 a = input().split(' ')
 b = input().split(' ')
 c = a + b
+c = list(set(c))
 c.sort()
-print(set(c))
+print(' '.join(c))
