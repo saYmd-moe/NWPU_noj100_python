@@ -1,0 +1,5 @@
+set1 = set(input().split(' '))
+set2 = set(input().split(' '))
+result = list(set1 - set2)
+result.sort()
+print(' '.join(result))
